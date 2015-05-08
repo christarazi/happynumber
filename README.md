@@ -8,39 +8,39 @@ Insipred by: http://www.smashcompany.com/technology/embarrassing-code-i-wrote-un
 # Sample Usage
 
 
-```shell
+```shell-session
 $ python3.4 happy.py 
 usage: happy.py <integer>
 ```
-```shell
+```shell-session
 $ python3.4 happy.py 5
 unhappy number
 ```
-```shell
+```shell-session
 $ python3.4 happy.py 7
 happy number
 ```
-```shell
+```shell-session
 $ python3.4 happy.py 1
 happy number
 ```
-```shell
+```shell-session
 $ python3.4 happy.py 0
 input must be greater than 0
 ```
-```shell
+```shell-session
 $ python3.4 happy.py -9
 input must be greater than 0
 ```
-```shell
+```shell-session
 $ python3.4 happy.py dfg
 input is not an integer
 ```
-```shell
+```shell-session
 $ python3.4 happy.py 998
 happy number
 ```
-```shell
+```shell-session
 $ python3.4 happy.py 555
 unhappy number
 ```
